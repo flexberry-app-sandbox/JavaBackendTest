@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Java back test",
+  "applicationTitle": "Java back test",
+  "items": [
+    {
+      "link": null,
+      "menuName": "java-back-test",
+      "caption": "JavaBackTest",
+      "title": "JavaBackTest",
+      "children": [
+        {
+          "link": "i-i-s-java-back-test-car-l",
+          "menuName": null,
+          "caption": "Car",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

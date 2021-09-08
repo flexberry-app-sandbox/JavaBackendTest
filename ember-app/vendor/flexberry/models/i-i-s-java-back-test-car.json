@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISJavaBackTestCar",
+  "modelName": "i-i-s-java-back-test-car",
+  "className": "Car",
+  "nameSpace": "IIS.JavaBackTest",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "model",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "speed",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "CarE",
+      "modelName": "i-i-s-java-back-test-car",
+      "attrs": [
+        {
+          "name": "model",
+          "caption": "Model",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "speed",
+          "caption": "Speed",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "CarL",
+      "modelName": "i-i-s-java-back-test-car",
+      "attrs": [
+        {
+          "name": "model",
+          "caption": "Model",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "speed",
+          "caption": "Speed",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

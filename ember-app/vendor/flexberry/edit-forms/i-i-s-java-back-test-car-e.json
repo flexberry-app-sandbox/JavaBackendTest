@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Car",
+  "name": "IISJavaBackTestCarE",
+  "className": "CarE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-java-back-test-car",
+      "modelProjection": "CarE"
+    }
+  ]
+}

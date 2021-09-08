@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-java-back-test-car-e",
+  "editForm": "i-i-s-java-back-test-car-e",
+  "external": false,
+  "caption": "Car",
+  "name": "IISJavaBackTestCarL",
+  "className": "CarL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-java-back-test-car",
+      "modelProjection": "CarL"
+    }
+  ]
+}
