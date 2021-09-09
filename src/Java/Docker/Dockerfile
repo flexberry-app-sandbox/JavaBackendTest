@@ -5,6 +5,7 @@ COPY /src/Java/Docker/changeFrontendConfig.sh /usr/src/config/
 
 RUN \
   set -x; \
+  sed -i.bak 's/\r$//' /usr/src/config/changeFrontendConfig.sh; \
   cd /usr/src/ember-app/; \
   sh /usr/src/config/changeFrontendConfig.sh;
 
