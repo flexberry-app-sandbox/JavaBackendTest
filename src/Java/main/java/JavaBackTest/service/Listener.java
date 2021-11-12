@@ -1,7 +1,7 @@
 package JavaBackTest.service;
 
-import com.sap.olingo.jpa.processor.core.api.JPAODataCRUDContextAccess;
-import com.sap.olingo.jpa.processor.core.api.JPAODataServiceContext;
+import net.flexberry.olingo.jpa.processor.core.api.JPAODataCRUDContextAccess;
+import net.flexberry.olingo.jpa.processor.core.api.JPAODataServiceContext;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

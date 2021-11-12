@@ -7,7 +7,7 @@ import JavaBackTest.utils.UUIDConverter;
 import javax.persistence.*;
 import java.util.UUID;
 
-import com.sap.olingo.jpa.metadata.core.edm.annotation.EdmIgnore;
+import net.flexberry.olingo.jpa.metadata.core.edm.annotation.EdmIgnore;
 
 /**
  * Entity implementation class for Entity: FlexberryAdvLimit

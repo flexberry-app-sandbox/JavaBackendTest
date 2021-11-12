@@ -76,9 +76,9 @@
             <version>2.6.2</version>
         </dependency>
         <dependency>
-            <groupId>com.github.SAP</groupId>
+            <groupId>net.flexberry</groupId>
             <artifactId>olingo-jpa-processor-v4</artifactId>
-            <version>0.3.8</version>
+            <version>0.3.9</version>
         </dependency>
     </dependencies>
     <repositories>

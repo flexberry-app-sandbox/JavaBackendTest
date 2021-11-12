@@ -1,8 +1,8 @@
 package JavaBackTest.service;
 
-import com.sap.olingo.jpa.metadata.api.JPAEntityManagerFactory;
-import com.sap.olingo.jpa.processor.core.api.JPAODataCRUDContextAccess;
-import com.sap.olingo.jpa.processor.core.api.JPAODataCRUDHandler;
+import net.flexberry.olingo.jpa.metadata.api.JPAEntityManagerFactory;
+import net.flexberry.olingo.jpa.processor.core.api.JPAODataCRUDContextAccess;
+import net.flexberry.olingo.jpa.processor.core.api.JPAODataCRUDHandler;
 import org.apache.olingo.commons.api.ex.ODataException;
 
 import javax.persistence.EntityManager;

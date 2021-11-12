@@ -1,18 +1,18 @@
 package JavaBackTest.service;
 
-import com.sap.olingo.jpa.metadata.core.edm.mapper.api.JPAAssociationPath;
-import com.sap.olingo.jpa.metadata.core.edm.mapper.api.JPAEntityType;
-import com.sap.olingo.jpa.metadata.core.edm.mapper.api.JPAStructuredType;
-import com.sap.olingo.jpa.metadata.core.edm.mapper.exception.ODataJPAModelException;
-import com.sap.olingo.jpa.processor.core.api.JPAAbstractCUDRequestHandler;
-import com.sap.olingo.jpa.processor.core.api.example.JPAExampleModifyException;
-import com.sap.olingo.jpa.processor.core.exception.ODataJPAInvocationTargetException;
-import com.sap.olingo.jpa.processor.core.exception.ODataJPAProcessException;
-import com.sap.olingo.jpa.processor.core.exception.ODataJPAProcessorException;
-import com.sap.olingo.jpa.processor.core.modify.JPAUpdateResult;
-import com.sap.olingo.jpa.processor.core.processor.JPAModifyUtil;
-import com.sap.olingo.jpa.processor.core.processor.JPARequestEntity;
-import com.sap.olingo.jpa.processor.core.processor.JPARequestLink;
+import net.flexberry.olingo.jpa.metadata.core.edm.mapper.api.JPAAssociationPath;
+import net.flexberry.olingo.jpa.metadata.core.edm.mapper.api.JPAEntityType;
+import net.flexberry.olingo.jpa.metadata.core.edm.mapper.api.JPAStructuredType;
+import net.flexberry.olingo.jpa.metadata.core.edm.mapper.exception.ODataJPAModelException;
+import net.flexberry.olingo.jpa.processor.core.api.JPAAbstractCUDRequestHandler;
+import net.flexberry.olingo.jpa.processor.core.api.example.JPAExampleModifyException;
+import net.flexberry.olingo.jpa.processor.core.exception.ODataJPAInvocationTargetException;
+import net.flexberry.olingo.jpa.processor.core.exception.ODataJPAProcessException;
+import net.flexberry.olingo.jpa.processor.core.exception.ODataJPAProcessorException;
+import net.flexberry.olingo.jpa.processor.core.modify.JPAUpdateResult;
+import net.flexberry.olingo.jpa.processor.core.processor.JPAModifyUtil;
+import net.flexberry.olingo.jpa.processor.core.processor.JPARequestEntity;
+import net.flexberry.olingo.jpa.processor.core.processor.JPARequestLink;
 import org.apache.olingo.commons.api.http.HttpMethod;
 import org.apache.olingo.commons.api.http.HttpStatusCode;
 
@@ -24,8 +24,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import static com.sap.olingo.jpa.processor.core.api.example.JPAExampleModifyException.MessageKeys.ENTITY_ALREADY_EXISTS;
-import static com.sap.olingo.jpa.processor.core.api.example.JPAExampleModifyException.MessageKeys.ENTITY_NOT_FOUND;
+import static net.flexberry.olingo.jpa.processor.core.api.example.JPAExampleModifyException.MessageKeys.ENTITY_ALREADY_EXISTS;
+import static net.flexberry.olingo.jpa.processor.core.api.example.JPAExampleModifyException.MessageKeys.ENTITY_NOT_FOUND;
 
 
 /**
